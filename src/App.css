@@ -1,0 +1,124 @@
+.App {
+	text-align: center;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.spacer {
+	height: 64px;
+}
+
+#main-heading {
+	margin: 5px;
+	margin-bottom: 38px;
+	font-size: calc(20px + 2vmin);
+}
+
+#move-counter {
+	font-size: calc(5px + 2vmin);
+	margin: 4px;
+}
+
+#hangman-progress-img {
+	margin: 0px;
+	height: 300px;
+}
+
+#word-preview {
+	font-size: calc(25px + 2vmin);
+	letter-spacing: 4px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.start-btn {
+	padding: 15px 32px;
+	margin: 4px 2px;
+	background-color: #a7ff4e;
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: calc(1px + 2vmin);
+	font-weight: bold;
+	cursor: pointer;
+}
+.reset-btn {
+	background-color: #ff4e4e;
+}
+
+.letter-btn-list {
+	list-style: none;
+	max-width: 38vw;
+	margin: 5px;
+}
+ul.letter-btn-list li {
+	display: inline;
+}
+
+.letter-btn {
+	background-color: rgb(0, 183, 255);
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: calc(5px + 2vmin);
+	padding: 10px 10px;
+	margin: 2px;
+	width: 96px;
+	height: 96px;
+	cursor: pointer;
+}
+.letter-btn:hover {
+	background-color: rgb(135, 199, 205);
+}
+
+.letter-btn.btn-invalid {
+	background-color: rgb(100, 138, 154);
+	cursor: default;
+}
+.letter-btn.btn-invalid:hover {
+	background-color: rgb(100, 138, 154);
+}
+
+.letter-btn.btn-valid {
+	background-color: rgb(0, 255, 195);
+	cursor: default;
+}
+.letter-btn.btn-valid:hover {
+	background-color: rgb(0, 255, 195);
+}
+
+#help-guide-btn {
+	background-color: rgb(0, 136, 255);
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: calc(5px + 2vmin);
+	padding: 10px 10px;
+	margin: 2px;
+	cursor: pointer;
+}
+.help-description {
+	max-width: 38vw;
+	display: none;
+	margin-bottom: 60px;
+}
+.help-description p {
+	margin: 0;
+	text-align: left;
+	font-size: calc(5px + 2vmin);
+}
